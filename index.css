@@ -1,0 +1,702 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  * {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  
+  header {
+    margin-top: -16px;
+  }
+  header video{
+    height: 100vh;
+    object-fit: cover;
+    width: 100%;
+  }
+  header .container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    position: relative;
+    z-index: 10;
+    color: white;
+  }
+  .container1{
+    margin-top: -2.5rem;
+  }
+  header .container1 .wraper {
+    display: flex;
+    margin-left: -79px;
+  }
+  
+  header .container1 .wraper li {
+    color: white;
+    padding-left: 83px;
+    margin-top: 15px;
+  }
+  
+  header .container1 .wraper .on {
+    font-size: 17px;
+  }
+  
+  header .container1 .wraper .tw {
+    font-size: 15px;
+  }
+  
+  header .container1 .wraper .th {
+    font-size: 15px;
+    margin-top: 18px;
+    text-decoration: underline;
+  }
+  
+  header .container1 .wraper .th:hover {
+    text-decoration: underline  3px;
+  }
+  
+  
+  
+  header .container .logo svg {
+    width: 120px;
+    height: 24px;
+    margin-top: 10px;
+    margin-left: 28px;
+    cursor: pointer;
+  }
+  
+  header .container .menu {
+    display: flex;
+    margin-left: 325px;
+  }
+  
+  header .container .menu h1 {
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 30px;
+    cursor: pointer;
+  }
+  
+  header .container .icons {
+    margin-left: 450px;
+  }
+  
+  header .container .icons .container {
+    display: flex;
+    margin-left: -43px;
+  }
+  
+  header .container .icons .container svg {
+    height: 26px;
+    width: 26px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  header .container .icons .container svg:hover {
+    background: #52525242;
+  }
+  .wrapper {
+    margin-left: 5rem;
+}
+  .first{
+    background: url("./images/modely.avif");
+    height: 810px;
+    background-size: 100%;
+    background-position: center;
+  }
+  .first .container {
+    width: 70%;
+    height: 68%;
+    margin-left: 68px;
+    padding: 119px;
+    text-align: center;
+  }
+  .first .container .wrapper{
+    text-align: center;
+  }
+  .first .container .wrapper h1 {
+    text-align: center;
+    font-size: 40px;
+    height: 24px;
+    font-weight: 500;
+    font-family: system-ui;
+    margin: 0;
+  }
+  
+  .first .container .wrapper p {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 28px;
+    margin-bottom: 0;
+  }
+  
+  .first .container .wr2 {
+    padding: 184px;
+    height: 188px;
+  }
+  
+  .first .container .wr2 .container {
+    display: flex;
+    margin-left: -94px;
+    width: 641px;
+  }
+  
+  .first .container .wr2 .container button {
+    width: 290px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 28px;
+    margin-top: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    cursor: pointer;
+  }
+  
+  
+  
+  .first .container .wr2 .container .dark {
+    color: white;
+    background-color: rgba(23, 26, 32, 0.65);
+  }
+  
+  .first .container .banp {
+    margin-top: -20px;
+    margin-left: 42px;
+  }
+
+  .second {
+    background: url("./images/second.avif");
+    height: 810px;
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .second .container {
+    width: 70%;
+    height: 68%;
+    margin-left: 68px;
+    padding: 119px;
+    text-align: center;
+  }
+  
+  .second .container .wrapper h1 {
+    text-align: center;
+    height: 24px;
+    font-weight: 500;
+    font-family: system-ui;
+    font-size: 40px;
+    margin-top: 0;
+  }
+  
+  .second .container .wrapper p {
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .second .container .wr2 {
+    padding: 184px;
+    height: 188px;
+  }
+  
+  .second .container .wr2 .container {
+    display: flex;
+    margin-left: -94px;
+    width: 641px;
+  }
+  
+  .second .container .wr2 .container button {
+    width: 290px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 31px;
+    margin-top: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    cursor: pointer;
+  }
+ 
+  
+  .second .container .wr2 .container .dark {
+    color: white;
+    background-color: rgba(23, 26, 32, 0.65);
+  }
+  
+  .second .container .banp {
+    margin-top: -35px;
+
+  }
+  
+  .third {
+    background: url("./images/third.avif");
+    height: 810px;
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .third .container {
+    width: 70%;
+    height: 68%;
+    margin-left: 68px;
+    padding: 119px;
+  }
+  .third .container .wrapper{
+    text-align: center;
+  }
+  .third .container .wrapper h1 {
+    text-align: center;
+    font-size: 40px;
+    height: 24px;
+    font-weight: 500;
+    font-family: system-ui;
+  }
+  
+  .third .container .wrapper p {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  
+  .third .container .wr2 {
+    padding: 184px;
+    height: 188px;
+  }
+  
+  .third .container .wr2 .container {
+    display: flex;
+    margin-left: -94px;
+    width: 641px;
+  }
+  
+  .third .container .wr2 .container button {
+    width: 290px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 31px;
+    margin-top: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    cursor: pointer;
+  }
+  
+  .third .container .wrapperbanp,.third .container .banp{
+    color: rgb(255, 255, 255);
+  }
+  
+  .third .container .wr2 .container .dark {
+    color: white;
+    background-color: rgba(23, 26, 32, 0.65);
+  }
+  
+  .third .container .banp {
+    margin-top: -59px;
+  }
+  
+  .fourth {
+    background: url("./images/fourth.avif");
+    height: 810px;
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+  }
+  small{
+    text-align: center;
+  }
+  u{
+    text-align: center;
+    font-size: 13.5px;
+  }
+  .fourth .container {
+    width: 70%;
+    height: 68%;
+    margin-left: 68px;
+    padding: 119px;
+    text-align: center;
+  }
+  
+  .fourth .container .wrapper h1 {
+    text-align: center;
+    font-size: 40px;
+    height: 24px;
+    font-weight: 500;
+    font-family: system-ui;
+  }
+  
+  .fourth .container .wrapper p {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  
+  .fourth .container .wr2 {
+    padding: 184px;
+    height: 188px;
+  }
+  
+  .fourth .container .wr2 .container {
+    display: flex;
+    margin-left: -94px;
+    width: 641px;
+  }
+  
+  .fourth .container .wr2 .container button {
+    width: 290px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 31px;
+    margin-top: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    cursor: pointer;
+  }
+  
+  .fourth .container .wr2 .container .dark {
+    color: white;
+    background-color: rgba(23, 26, 32, 0.65);
+  }
+  
+  .fourth .container .banp {
+    margin-top: -53px;
+
+  }
+  
+  .fifth {
+    background: url("./images/cyb.avif");
+    height: 810px;
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .fifth .container {
+    width: 70%;
+    height: 68%;
+    margin-left: 68px;
+    padding: 119px;
+  }
+  
+  .fifth .container .wrapper h1 {
+    text-align: center;
+    font-size: 40px;
+    height: 24px;
+    font-weight: 500;
+    font-family: system-ui;
+  }
+  
+  .fifth .container .wrapper p {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  
+  .fifth .container .wr2 {
+    padding: 184px;
+    height: 188px;
+    margin-top: 157px;
+  }
+  
+  .fifth .container .wr2 .container {
+    display: flex;
+    margin-left: -94px;
+    width: 641px;
+  }
+  
+  .fifth .container .wr2 .container button {
+    width: 290px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 31px;
+    margin-top: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    background-color: rgba(244, 244, 244, 0.8);
+    cursor: pointer;
+  }
+  
+ 
+  
+  .fifth .container .wr2 .container .dark {
+    color: white;
+    background-color: rgba(23, 26, 32, 0.65);
+  }
+  
+  .fifth .container .banp {
+    margin-top: -35px;
+
+  }
+  
+  .sixth {
+    background: url("./images/SolarPanels.avif");
+    height: 810px;
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .sixth .container {
+    width: 70%;
+    height: 68%;
+    margin-left: 68px;
+    padding: 119px;
+  }
+  
+  .sixth .container .wrapper h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    height: 24px;
+    font-weight: 500;
+    font-family: system-ui;
+  }
+  
+  .sixth .container .wrapper p {
+    color: white;
+    text-decoration:1px underline;
+    cursor: pointer;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 0;
+    transition: 0.5s ease;
+  }
+  .sixth .container .wrapper p:hover{
+    
+    text-decoration-thickness:1.8px ;
+  }
+  
+  .sixth .container .wr2 {
+    padding: 184px;
+    height: 188px;
+    margin-top: 157px;
+  }
+  
+  .sixth .container .wr2 .container {
+    display: flex;
+    margin-left: -46px;
+    width: 641px;
+  }
+  
+  .sixth .container .wr2 .container button {
+    width: 290px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 28px;
+    margin-top: -4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    background-color: rgba(244, 244, 244, 0.8);
+    cursor: pointer;
+  }
+  
+  .sixth .container .wr2 .container .dark {
+    color: white;
+    background-color: rgba(23, 26, 32, 0.65);
+  }
+  .seventh{
+    background: url("./images/SolarRoof.avif");
+    height: 810px;
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .seventh .container {
+    width: 70%;
+    height: 68%;
+    margin-left: 68px;
+    padding: 119px;
+  }
+  
+  .seventh .container .wrapper h1 {
+    text-align: center;
+    font-size: 40px;
+    height: 24px;
+    font-weight: 500;
+    font-family: system-ui;
+  }
+  
+  .seventh .container .wrapper p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  
+  .seventh .container .wr2 {
+    padding: 184px;
+    height: 188px;
+    margin-top: 157px;
+  }
+  
+  .seventh .container .wr2 .container {
+    display: flex;
+    margin-left: -94px;
+    width: 641px;
+  }
+  
+  .seventh .container .wr2 .container button {
+    width: 290px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 31px;
+    margin-top: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    background-color: rgba(244, 244, 244, 0.8);
+    cursor: pointer;
+  }
+  
+  .seventh .container .wr2 .container .dark {
+    color: white;
+    background-color: rgba(23, 26, 32, 0.65);
+  }
+  .eight{
+    background: url("./images/Powerwall.avif");
+    height: 810px;
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .eight .container {
+    width: 70%;
+    height: 68%;
+    margin-left: 68px;
+    padding: 119px;
+  }
+  
+  .eight .container .wrapper h1 {
+    text-align: center;
+    font-size: 40px;
+    height: 24px;
+    font-weight: 500;
+    font-family: system-ui;
+  }
+
+  
+  .eight .container .wr2 {
+    padding: 184px;
+    height: 188px;
+    margin-top: 157px;
+  }
+  
+  .eight .container .wr2 .container {
+    display: flex;
+    margin-left: -94px;
+    width: 641px;
+  }
+  
+  .eight .container .wr2 .container button {
+    width: 290px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 30px;
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    background-color: rgba(244, 244, 244, 0.8);
+    cursor: pointer;
+  }
+  
+  .eight .container .wr2 .container .dark {
+    color: white;
+    background-color: rgba(23, 26, 32, 0.65);
+  }
+  .nine{
+    background: url("./images/Accessories.avif");
+    height: 810px;
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+  }
+  .nine .container {
+    width: 70%;
+    height: 68%;
+    margin-left: 68px;
+    padding: 119px;
+  }
+  
+  .nine .container .wrapper h1 {
+    text-align: center;
+    font-size: 40px;
+    height: 24px;
+    font-weight: 500;
+    font-family: system-ui;
+  }
+  
+  
+  .nine .container .wr2 {
+    padding: 109px 184px;
+    height: 188px;
+    margin-top: 157px;
+  }
+  
+  .nine .container .wr2 .container {
+    display: flex;
+    margin-left: -94px;
+    width: 641px;
+  }
+  
+  .nine .container .wr2 .container button {
+    width: 290px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 15rem;
+    margin-top: 98px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    background-color: rgba(244, 244, 244, 0.8);
+    cursor: pointer;
+  }
+  
+  .nine .container .wr2 .container .dark {
+    color: white;
+    background-color: rgba(23, 26, 32, 0.65);
+  }
+
+  footer .containerf .two {
+    margin-top: -9px;
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(218, 212, 212);
+  }
+  
+  footer .containerf .two ul {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  footer .containerf .two ul li a {
+    cursor: pointer;
+  }
+.banp{
+    font-size: 13.5px;
+    color: #000000e0;;
+}
+.ftcontainer{
+  margin: auto;
+  width: 50%;
+}
